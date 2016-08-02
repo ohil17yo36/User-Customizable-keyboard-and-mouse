@@ -1,0 +1,438 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.shyam.hci_2.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:tag="A"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="A"
+            android:id="@+id/button_A"
+            android:layout_column="0"
+            android:textColor="#1538e6"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:tag="B"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="B"
+            android:id="@+id/button_B"
+            android:layout_column="1"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="C"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="C"
+            android:id="@+id/button_C"
+            android:layout_column="2"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="D"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="D"
+            android:id="@+id/button_D"
+            android:layout_column="3"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="E"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="E"
+            android:id="@+id/button_E"
+            android:layout_column="5"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="F"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="F"
+            android:id="@+id/button_F"
+            android:layout_column="6"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:tag="G"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="G"
+            android:id="@+id/button_G"
+            android:layout_column="0"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="H"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="H"
+            android:id="@+id/button_H"
+            android:layout_column="1"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="I"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="I"
+            android:id="@+id/button_I"
+            android:layout_column="2"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="J"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="J"
+            android:id="@+id/button_J"
+            android:layout_column="3"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="K"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="K"
+            android:id="@+id/button_K"
+            android:layout_column="5"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+
+        <Button
+            android:tag="L"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="L"
+            android:id="@+id/button_L"
+            android:layout_column="6"
+            android:textSize="40dp"
+            android:textColor="#1538e6" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:tag="M"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="M"
+            android:id="@+id/button_M"
+            android:layout_column="0"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="N"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="N"
+            android:id="@+id/button_N"
+            android:layout_column="1"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="O"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="O"
+            android:id="@+id/button_O"
+            android:layout_column="2"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="P"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="P"
+            android:id="@+id/button_P"
+            android:layout_column="3"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="Q"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="Q"
+            android:id="@+id/button_Q"
+            android:layout_column="5"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="R"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="R"
+            android:id="@+id/button_R"
+            android:layout_column="6"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:tag="S"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="S"
+            android:id="@+id/button_S"
+            android:layout_column="0"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="T"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="T"
+            android:id="@+id/button_T"
+            android:layout_column="1"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="U"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="U"
+            android:id="@+id/button_U"
+            android:layout_column="2"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="V"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="V"
+            android:id="@+id/button_V"
+            android:layout_column="3"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="W"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="W"
+            android:id="@+id/button_W"
+            android:layout_column="5"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="X"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="X"
+            android:id="@+id/button_X"
+            android:layout_column="6"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:tag="Y"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="Y"
+            android:id="@+id/button_Y"
+            android:layout_column="0"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="Z"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="Z"
+            android:id="@+id/button_Z"
+            android:layout_column="1"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+    </TableRow>
+
+</TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:tag="SHIFT"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="SHIFT"
+            android:id="@+id/button_SHIFT"
+            android:textColor="#053efb"
+            android:textSize="40dp" />
+
+        <Button
+            android:tag="CTRL"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="CTRL"
+            android:id="@+id/button_CTRL"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+
+        <Button
+            android:tag="SPACE"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="                      "
+            android:id="@+id/button_SPACEBAR"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:tag="ALT"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="ALT"
+            android:id="@+id/button_ALT"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+        <Button
+            android:tag="DEL"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:text="DEL"
+            android:id="@+id/button_DEL"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+        <Button
+            android:tag="ENTER"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="ENTER"
+            android:id="@+id/button_ENTER"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:tag="BACKSPACE"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:text="BACKSPACE"
+            android:id="@+id/button_BACKSPACE"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+        <Button
+            android:tag="ESC"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="ESC"
+            android:id="@+id/button_ESC"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:tag="UP_ARROW"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="&#x2191;"
+            android:id="@+id/button_UP"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+        <Button
+            android:tag="DOWN_ARROW"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="&#x2193;"
+            android:id="@+id/button_DOWN"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+        <Button
+            android:tag="LEFT_ARROW"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="&#x2190;"
+            android:id="@+id/button_LEFT"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+        <Button
+            android:tag="RIGHT_ARROW"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="&#x2192;"
+            android:id="@+id/button_RIGHT"
+            android:textSize="40dp"
+            android:textColor="#053efb" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+</LinearLayout>
+</ScrollView>
+</HorizontalScrollView>
