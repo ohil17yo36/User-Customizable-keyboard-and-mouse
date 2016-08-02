@@ -1,0 +1,6 @@
+DIFFICULTIES FACED :
+
+1) The drag feature : 
+	In the drag feature the buttons could be dragged among different layouts. Handling this was difficult because when a button gets transfered from one layout to another its properties changes. This was causing lots of errors. The errors were difficult to recognize. Finaly this was handled by converting the all button properties to the respective layout whenever a button is dropped in that particular layout. 
+2) In order to transfer the button from "KEYS" tab to "KEYBOARD" tab , we had to dynamically create a new button in the "KEYBOARD" tab. To generate a new button we had to create a new ID for the button dynamically. Doing this was difficult because if there was any repeated usage of an existing ID it would cause runtime errors. We tried to assign the ID's starting from "1" and then using "2","3" subsequently. This caused errors. We found that there existed a builtin function called "getNewId()" for generating ID's dynamically. But this was supported only by API 17 and above. Hence the minimum requirement for the app is API 17 and above.
+
